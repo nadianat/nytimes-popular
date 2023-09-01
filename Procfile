@@ -1,2 +1,2 @@
-web: gunicorn script:nytimes-popular
+web: gunicorn script:app
 heroku buildpacks:set heroku/python
